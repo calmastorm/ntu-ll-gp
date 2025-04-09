@@ -27,7 +27,7 @@ model = T5ForConditionalGeneration.from_pretrained(model_name).to(device)
 peft_config = PromptTuningConfig(
     task_type="SEQ_2_SEQ_LM",
     prompt_tuning_init=PromptTuningInit.TEXT,
-    prompt_tuning_init_text="Your initialization text here",
+    prompt_tuning_init_text="Answer the question based on the context:",
     num_virtual_tokens=20,
     tokenizer_name_or_path="t5-base",
 )
