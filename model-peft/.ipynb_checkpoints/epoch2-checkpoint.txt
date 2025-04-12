@@ -1,3 +1,0 @@
-trainable params: 15,360 || all params: 222,918,912 || trainable%: 0.0069
-Exact Match: 78.16
-F1 Score: 86.34
