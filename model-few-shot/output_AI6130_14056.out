@@ -1,0 +1,21 @@
+
+Results:
+Exact Match: 82.83
+F1 Score: 90.29
+
+Example Predictions:
+
+Question: Which NFL team represented the AFC at Super Bowl 50?
+Context: Super Bowl 50 was an American football game to determine the champion of the National Football Leagu...
+True Answer: Denver Broncos
+Predicted Answer: Denver Broncos
+
+Question: Which NFL team represented the NFC at Super Bowl 50?
+Context: Super Bowl 50 was an American football game to determine the champion of the National Football Leagu...
+True Answer: Carolina Panthers
+Predicted Answer: Carolina Panthers
+
+Question: Where did Super Bowl 50 take place?
+Context: Super Bowl 50 was an American football game to determine the champion of the National Football Leagu...
+True Answer: Santa Clara, California
+Predicted Answer: Levi's Stadium in the San Francisco Bay Area at Santa Clara, California
