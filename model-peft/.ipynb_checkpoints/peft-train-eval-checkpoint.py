@@ -43,7 +43,7 @@ val_dataset = load_dataset("squad", split="validation")
 metric = evaluate.load("squad")
 
 # 超参数
-num_epochs = 10
+num_epochs = 5
 batch_size = 8
 lr = 5e-4
 
