@@ -30,7 +30,7 @@ peft_config = PromptTuningConfig(
     task_type=TaskType.SEQ_2_SEQ_LM,
     prompt_tuning_init=PromptTuningInit.TEXT,
     prompt_tuning_init_text="Answer the question based on the context:",
-    num_virtual_tokens=10,
+    num_virtual_tokens=20,
     tokenizer_name_or_path=model_name,
 )
 
@@ -43,7 +43,7 @@ val_dataset = load_dataset("squad", split="validation")
 metric = evaluate.load("squad")
 
 # 超参数
-num_epochs = 2
+num_epochs = 5
 batch_size = 8
 lr = 5e-4
 

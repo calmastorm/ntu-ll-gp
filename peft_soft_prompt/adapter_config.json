@@ -5,7 +5,7 @@
   "num_attention_heads": 12,
   "num_layers": 12,
   "num_transformer_submodules": 2,
-  "num_virtual_tokens": 10,
+  "num_virtual_tokens": 20,
   "peft_type": "PROMPT_TUNING",
   "prompt_tuning_init": "TEXT",
   "prompt_tuning_init_text": "Answer the question based on the context:",
