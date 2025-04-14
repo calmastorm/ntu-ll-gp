@@ -1,0 +1,22 @@
+
+Final Evaluation Results:
+Exact Match: 78.15
+F1 Score: 86.15
+Number of samples: 10570
+
+Sample Predictions:
+
+Question: Which NFL team represented the AFC at Super Bowl 50?
+Context: Super Bowl 50 was an American football game to determine the champion of the National Football Leagu...
+True Answer: Denver Broncos
+Predicted Answer: Denver Broncos
+
+Question: What color was used to emphasize the 50th anniversary of the Super Bowl?
+Context: Super Bowl 50 was an American football game to determine the champion of the National Football Leagu...
+True Answer: gold
+Predicted Answer: gold
+
+Question: Where did Super Bowl 50 take place?
+Context: Super Bowl 50 was an American football game to determine the champion of the National Football Leagu...
+True Answer: Santa Clara, California
+Predicted Answer: Levi's Stadium
